@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.for-image{
+    background-image: url('./pexels-steve-johnson-1930310.jpg');
+   
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0 ;
+   
+}
+.overlay h1{
+    color: white;
+    font-size: 6rem;
+    
+}
+.profile-img img{
+    width: 20rem;
+    border-radius: 50%;
+}
+.profile{
+    margin-top: 10rem;
+}
+.profile p {
+    font-size: 1.5rem;
+    color: rgb(148, 146, 146);
+}
