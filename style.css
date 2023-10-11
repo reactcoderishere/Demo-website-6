@@ -3,7 +3,10 @@
     padding: 0;
 }
 .for-image{
-    background-image: url('./pexels-steve-johnson-1930310.jpg');
+    /* background-image: url(''); */
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./pexels-steve-johnson-1930310.jpg");
    
     min-height: 100vh;
     background-size: cover;
